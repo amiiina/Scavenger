@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		1875515D1CA6CAA700FEA331 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1875515C1CA6CAA700FEA331 /* AppDelegate.swift */; };
-		1875515F1CA6CAA800FEA331 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1875515E1CA6CAA800FEA331 /* ViewController.swift */; };
+		1875515F1CA6CAA800FEA331 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1875515E1CA6CAA800FEA331 /* AddViewController.swift */; };
 		187551621CA6CAA800FEA331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187551601CA6CAA800FEA331 /* Main.storyboard */; };
 		187551641CA6CAA800FEA331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187551631CA6CAA800FEA331 /* Assets.xcassets */; };
 		187551671CA6CAA800FEA331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187551651CA6CAA800FEA331 /* LaunchScreen.storyboard */; };
 		187551721CA6CAA800FEA331 /* Scevenger_HuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187551711CA6CAA800FEA331 /* Scevenger_HuntTests.swift */; };
 		1875517D1CA6CAA800FEA331 /* Scevenger_HuntUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1875517C1CA6CAA800FEA331 /* Scevenger_HuntUITests.swift */; };
+		1875518B1CA6D98600FEA331 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1875518A1CA6D98600FEA331 /* ListViewController.swift */; };
+		18C21B631CA6FD2A00D195E2 /* ScavengerHuntItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C21B621CA6FD2A00D195E2 /* ScavengerHuntItem.swift */; };
+		18C21B651CA716A300D195E2 /* ItemsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C21B641CA716A300D195E2 /* ItemsManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		187551591CA6CAA700FEA331 /* Scevenger Hunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scevenger Hunt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1875515C1CA6CAA700FEA331 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1875515E1CA6CAA800FEA331 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1875515E1CA6CAA800FEA331 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		187551611CA6CAA800FEA331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		187551631CA6CAA800FEA331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		187551661CA6CAA800FEA331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		187551781CA6CAA800FEA331 /* Scevenger HuntUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scevenger HuntUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1875517C1CA6CAA800FEA331 /* Scevenger_HuntUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scevenger_HuntUITests.swift; sourceTree = "<group>"; };
 		1875517E1CA6CAA800FEA331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1875518A1CA6D98600FEA331 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		18C21B621CA6FD2A00D195E2 /* ScavengerHuntItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScavengerHuntItem.swift; sourceTree = "<group>"; };
+		18C21B641CA716A300D195E2 /* ItemsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +104,11 @@
 			isa = PBXGroup;
 			children = (
 				1875515C1CA6CAA700FEA331 /* AppDelegate.swift */,
-				1875515E1CA6CAA800FEA331 /* ViewController.swift */,
+				1875515E1CA6CAA800FEA331 /* AddViewController.swift */,
 				187551601CA6CAA800FEA331 /* Main.storyboard */,
+				18C21B621CA6FD2A00D195E2 /* ScavengerHuntItem.swift */,
+				18C21B641CA716A300D195E2 /* ItemsManager.swift */,
+				1875518A1CA6D98600FEA331 /* ListViewController.swift */,
 				187551631CA6CAA800FEA331 /* Assets.xcassets */,
 				187551651CA6CAA800FEA331 /* LaunchScreen.storyboard */,
 				187551681CA6CAA800FEA331 /* Info.plist */,
@@ -256,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1875515F1CA6CAA800FEA331 /* ViewController.swift in Sources */,
+				1875515F1CA6CAA800FEA331 /* AddViewController.swift in Sources */,
 				1875515D1CA6CAA700FEA331 /* AppDelegate.swift in Sources */,
+				18C21B631CA6FD2A00D195E2 /* ScavengerHuntItem.swift in Sources */,
+				1875518B1CA6D98600FEA331 /* ListViewController.swift in Sources */,
+				18C21B651CA716A300D195E2 /* ItemsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +496,7 @@
 				187551831CA6CAA800FEA331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		187551841CA6CAA800FEA331 /* Build configuration list for PBXNativeTarget "Scevenger HuntTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +505,7 @@
 				187551861CA6CAA800FEA331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		187551871CA6CAA800FEA331 /* Build configuration list for PBXNativeTarget "Scevenger HuntUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +514,7 @@
 				187551891CA6CAA800FEA331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
