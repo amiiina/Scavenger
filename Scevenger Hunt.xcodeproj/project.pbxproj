@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1875515D1CA6CAA700FEA331 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1875515C1CA6CAA700FEA331 /* AppDelegate.swift */; };
+		1875515F1CA6CAA800FEA331 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1875515E1CA6CAA800FEA331 /* ViewController.swift */; };
+		187551621CA6CAA800FEA331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187551601CA6CAA800FEA331 /* Main.storyboard */; };
+		187551641CA6CAA800FEA331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187551631CA6CAA800FEA331 /* Assets.xcassets */; };
+		187551671CA6CAA800FEA331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187551651CA6CAA800FEA331 /* LaunchScreen.storyboard */; };
+		187551721CA6CAA800FEA331 /* Scevenger_HuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187551711CA6CAA800FEA331 /* Scevenger_HuntTests.swift */; };
+		1875517D1CA6CAA800FEA331 /* Scevenger_HuntUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1875517C1CA6CAA800FEA331 /* Scevenger_HuntUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1875516E1CA6CAA800FEA331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187551511CA6CAA700FEA331 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187551581CA6CAA700FEA331;
+			remoteInfo = "Scevenger Hunt";
+		};
+		187551791CA6CAA800FEA331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187551511CA6CAA700FEA331 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187551581CA6CAA700FEA331;
+			remoteInfo = "Scevenger Hunt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187551591CA6CAA700FEA331 /* Scevenger Hunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scevenger Hunt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1875515C1CA6CAA700FEA331 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1875515E1CA6CAA800FEA331 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		187551611CA6CAA800FEA331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187551631CA6CAA800FEA331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187551661CA6CAA800FEA331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187551681CA6CAA800FEA331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1875516D1CA6CAA800FEA331 /* Scevenger HuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scevenger HuntTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		187551711CA6CAA800FEA331 /* Scevenger_HuntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scevenger_HuntTests.swift; sourceTree = "<group>"; };
+		187551731CA6CAA800FEA331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187551781CA6CAA800FEA331 /* Scevenger HuntUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scevenger HuntUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1875517C1CA6CAA800FEA331 /* Scevenger_HuntUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scevenger_HuntUITests.swift; sourceTree = "<group>"; };
+		1875517E1CA6CAA800FEA331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187551561CA6CAA700FEA331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1875516A1CA6CAA800FEA331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187551751CA6CAA800FEA331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187551501CA6CAA700FEA331 = {
+			isa = PBXGroup;
+			children = (
+				1875515B1CA6CAA700FEA331 /* Scevenger Hunt */,
+				187551701CA6CAA800FEA331 /* Scevenger HuntTests */,
+				1875517B1CA6CAA800FEA331 /* Scevenger HuntUITests */,
+				1875515A1CA6CAA700FEA331 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1875515A1CA6CAA700FEA331 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187551591CA6CAA700FEA331 /* Scevenger Hunt.app */,
+				1875516D1CA6CAA800FEA331 /* Scevenger HuntTests.xctest */,
+				187551781CA6CAA800FEA331 /* Scevenger HuntUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1875515B1CA6CAA700FEA331 /* Scevenger Hunt */ = {
+			isa = PBXGroup;
+			children = (
+				1875515C1CA6CAA700FEA331 /* AppDelegate.swift */,
+				1875515E1CA6CAA800FEA331 /* ViewController.swift */,
+				187551601CA6CAA800FEA331 /* Main.storyboard */,
+				187551631CA6CAA800FEA331 /* Assets.xcassets */,
+				187551651CA6CAA800FEA331 /* LaunchScreen.storyboard */,
+				187551681CA6CAA800FEA331 /* Info.plist */,
+			);
+			path = "Scevenger Hunt";
+			sourceTree = "<group>";
+		};
+		187551701CA6CAA800FEA331 /* Scevenger HuntTests */ = {
+			isa = PBXGroup;
+			children = (
+				187551711CA6CAA800FEA331 /* Scevenger_HuntTests.swift */,
+				187551731CA6CAA800FEA331 /* Info.plist */,
+			);
+			path = "Scevenger HuntTests";
+			sourceTree = "<group>";
+		};
+		1875517B1CA6CAA800FEA331 /* Scevenger HuntUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1875517C1CA6CAA800FEA331 /* Scevenger_HuntUITests.swift */,
+				1875517E1CA6CAA800FEA331 /* Info.plist */,
+			);
+			path = "Scevenger HuntUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187551581CA6CAA700FEA331 /* Scevenger Hunt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187551811CA6CAA800FEA331 /* Build configuration list for PBXNativeTarget "Scevenger Hunt" */;
+			buildPhases = (
+				187551551CA6CAA700FEA331 /* Sources */,
+				187551561CA6CAA700FEA331 /* Frameworks */,
+				187551571CA6CAA700FEA331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Scevenger Hunt";
+			productName = "Scevenger Hunt";
+			productReference = 187551591CA6CAA700FEA331 /* Scevenger Hunt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1875516C1CA6CAA800FEA331 /* Scevenger HuntTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187551841CA6CAA800FEA331 /* Build configuration list for PBXNativeTarget "Scevenger HuntTests" */;
+			buildPhases = (
+				187551691CA6CAA800FEA331 /* Sources */,
+				1875516A1CA6CAA800FEA331 /* Frameworks */,
+				1875516B1CA6CAA800FEA331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1875516F1CA6CAA800FEA331 /* PBXTargetDependency */,
+			);
+			name = "Scevenger HuntTests";
+			productName = "Scevenger HuntTests";
+			productReference = 1875516D1CA6CAA800FEA331 /* Scevenger HuntTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		187551771CA6CAA800FEA331 /* Scevenger HuntUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187551871CA6CAA800FEA331 /* Build configuration list for PBXNativeTarget "Scevenger HuntUITests" */;
+			buildPhases = (
+				187551741CA6CAA800FEA331 /* Sources */,
+				187551751CA6CAA800FEA331 /* Frameworks */,
+				187551761CA6CAA800FEA331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1875517A1CA6CAA800FEA331 /* PBXTargetDependency */,
+			);
+			name = "Scevenger HuntUITests";
+			productName = "Scevenger HuntUITests";
+			productReference = 187551781CA6CAA800FEA331 /* Scevenger HuntUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187551511CA6CAA700FEA331 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ameena Apple";
+				TargetAttributes = {
+					187551581CA6CAA700FEA331 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1875516C1CA6CAA800FEA331 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 187551581CA6CAA700FEA331;
+					};
+					187551771CA6CAA800FEA331 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 187551581CA6CAA700FEA331;
+					};
+				};
+			};
+			buildConfigurationList = 187551541CA6CAA700FEA331 /* Build configuration list for PBXProject "Scevenger Hunt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187551501CA6CAA700FEA331;
+			productRefGroup = 1875515A1CA6CAA700FEA331 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187551581CA6CAA700FEA331 /* Scevenger Hunt */,
+				1875516C1CA6CAA800FEA331 /* Scevenger HuntTests */,
+				187551771CA6CAA800FEA331 /* Scevenger HuntUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187551571CA6CAA700FEA331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187551671CA6CAA800FEA331 /* LaunchScreen.storyboard in Resources */,
+				187551641CA6CAA800FEA331 /* Assets.xcassets in Resources */,
+				187551621CA6CAA800FEA331 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1875516B1CA6CAA800FEA331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187551761CA6CAA800FEA331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187551551CA6CAA700FEA331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1875515F1CA6CAA800FEA331 /* ViewController.swift in Sources */,
+				1875515D1CA6CAA700FEA331 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187551691CA6CAA800FEA331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187551721CA6CAA800FEA331 /* Scevenger_HuntTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187551741CA6CAA800FEA331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1875517D1CA6CAA800FEA331 /* Scevenger_HuntUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1875516F1CA6CAA800FEA331 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187551581CA6CAA700FEA331 /* Scevenger Hunt */;
+			targetProxy = 1875516E1CA6CAA800FEA331 /* PBXContainerItemProxy */;
+		};
+		1875517A1CA6CAA800FEA331 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187551581CA6CAA700FEA331 /* Scevenger Hunt */;
+			targetProxy = 187551791CA6CAA800FEA331 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		187551601CA6CAA800FEA331 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187551611CA6CAA800FEA331 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187551651CA6CAA800FEA331 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187551661CA6CAA800FEA331 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1875517F1CA6CAA800FEA331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		187551801CA6CAA800FEA331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187551821CA6CAA800FEA331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Scevenger Hunt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Scevenger-Hunt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		187551831CA6CAA800FEA331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Scevenger Hunt/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Scevenger-Hunt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		187551851CA6CAA800FEA331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Scevenger HuntTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Scevenger-HuntTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scevenger Hunt.app/Scevenger Hunt";
+			};
+			name = Debug;
+		};
+		187551861CA6CAA800FEA331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Scevenger HuntTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Scevenger-HuntTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scevenger Hunt.app/Scevenger Hunt";
+			};
+			name = Release;
+		};
+		187551881CA6CAA800FEA331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Scevenger HuntUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Scevenger-HuntUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Scevenger Hunt";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		187551891CA6CAA800FEA331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Scevenger HuntUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Scevenger-HuntUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Scevenger Hunt";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187551541CA6CAA700FEA331 /* Build configuration list for PBXProject "Scevenger Hunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1875517F1CA6CAA800FEA331 /* Debug */,
+				187551801CA6CAA800FEA331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187551811CA6CAA800FEA331 /* Build configuration list for PBXNativeTarget "Scevenger Hunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187551821CA6CAA800FEA331 /* Debug */,
+				187551831CA6CAA800FEA331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		187551841CA6CAA800FEA331 /* Build configuration list for PBXNativeTarget "Scevenger HuntTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187551851CA6CAA800FEA331 /* Debug */,
+				187551861CA6CAA800FEA331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		187551871CA6CAA800FEA331 /* Build configuration list for PBXNativeTarget "Scevenger HuntUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187551881CA6CAA800FEA331 /* Debug */,
+				187551891CA6CAA800FEA331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 187551511CA6CAA700FEA331 /* Project object */;
+}
